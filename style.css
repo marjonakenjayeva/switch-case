@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+header {
+    padding: 20px;
+    box-shadow: #E5E5E5 1px 1px 1px;
+}
+
+.rowheader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logorow {
+    display: flex;
+}
+
+.headerbn {
+    font-size: 16px;
+    color: white;
+    padding: 7px 45px;
+    background-color: #FC004A;
+    border: none;
+    border-radius: 12px;
+    margin-left: 10px;
+    display: flex;
+    gap: 10px;
+}
+
+.headerbn i {
+    font-size: 16px;
+    color: white;
+}
+
+ul {
+    display: flex;
+    gap: 10px;
+}
+
+ul a {
+    font-size: 16px;
+    font-weight: 400;
+    color: #000;
+}
+.buttonmenu{
+    display: none;
+}
+.placat img {
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 65px;
+    display: flex;
+    justify-content: center;
+}
+
+.set {
+    font-size: 32px;
+    color: #262626;
+    margin-top: 65px;
+    margin-bottom: 45px;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.card {
+    width: 235px;
+    padding-bottom: 10px;
+    box-shadow: #0000001A 1px 7px 10px 4px;
+    border-radius: 15px;
+}
+
+.card img {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.p1 {
+    font-size: 18px;
+    font-weight: 700;
+    margin-left: 10px;
+    margin-top: 15px;
+}
+
+.p2 {
+    font-size: 18px;
+    font-weight: 500;
+    color: #FC004A;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.cardbn {
+    font-size: 35px;
+    color: white;
+    width: 40px;
+    height: 40px;
+    background-color: #FC004A;
+    border-radius: 10px;
+    border: none;
+    margin-top: 10px;
+    margin-left: 180px;
+}
+
+footer {
+    padding: 80px 0 50px 0;
+}
+
+.rowfooter {
+    display: flex;
+    align-items: center;
+}
+
+.footerp {
+    font-size: 18px;
+    font-weight: 400;
+    margin-left: 75px;
+}
+
+.footerimg {
+    margin-left: 275px;
+}
+
+
+@media(max-width: 1024px) {
+    .imgheader {
+        display: none;
+    }
+
+}
+@media(max-width: 768px){
+    ul{
+     display: none;
+    }
+    .buttonmenu{
+        display: block; 
+        padding: 10px 15px;
+    }
+    .buttonmenu i{
+        font-size: 18px;
+    }
+}
